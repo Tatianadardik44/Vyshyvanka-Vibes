@@ -39,3 +39,41 @@ img {
   padding: 20px;
   padding-bottom: 0;
 }
+
+.navig {
+  display: flex;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.logo {
+  margin-right: 87px;
+}
+.section-navig {
+  display: none;
+}
+.header-contact {
+  display: none;
+}
+.socials-icons {
+  display: flex;
+  gap: 12px;
+}
+.facebook {
+  color: #fcf9f9;
+}
+.icons-header {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background: rgba(252, 249, 249, 0.1);
+  align-items: center;
+  justify-content: center;
+}
+.btn-menu-header {
+  background-color: inherit;
+  border: none;
+  margin-left: auto;
+}

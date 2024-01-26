@@ -1,0 +1,41 @@
+body {
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.conteiner {
+  max-width: 768px;
+  background-color: #1c2225;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  padding-bottom: 0;
+}

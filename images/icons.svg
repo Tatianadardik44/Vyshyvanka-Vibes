@@ -136,5 +136,8 @@
     <symbol id="icon-arrowNav" viewBox="0 0 48 32">
       <path fill="none" stroke="#ecd979" stroke-linecap="round" stroke-width="2.667" d="M8.638 5.455h38.029M8.638 24.849h38.029m-26.551-9.698h26.551" style="stroke:var(--color1, #ecd979)"/>
     </symbol>
+    <symbol id="icon-arrowNav-tablet" viewBox="0 0 47 32">
+      <path fill="none" stroke="#ecd979" stroke-linecap="round" stroke-width="3.2" d="M8.742 5.188h36.591M8.742 24.582h36.591m-25.368-9.697h25.368" style="stroke:var(--color1, #ecd979)"/>
+    </symbol>
   </defs>
 </svg>

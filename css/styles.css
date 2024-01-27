@@ -70,6 +70,11 @@ img {
 .logo {
   margin-right: 87px;
 }
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 440px;
+  }
+}
 @media screen and (min-width: 1280px) {
   .logo {
     margin-right: 60px;
@@ -81,7 +86,12 @@ img {
 @media screen and (min-width: 1280px) {
   .section-navig {
     display: block;
-    margin-right: 220px;
+    margin-right: 229px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-navig {
+    margin-right: 289px;
   }
 }
 .navig-section {
@@ -111,6 +121,12 @@ img {
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   margin-right: 20px;
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .header-contact {
+    display: block;
+  }
 }
 .contact-numero {
   color: #fcf9f9;
@@ -124,8 +140,19 @@ img {
   text-decoration: none;
 }
 .socials {
-  margin-right: 0;
+  margin-right: 12px;
 }
+@media screen and (min-width: 768px) {
+  .socials {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .socials {
+    margin-right: 0;
+  }
+}
+
 .socials-icons {
   display: flex;
   gap: 12px;
@@ -147,11 +174,33 @@ img {
   display: flex;
   align-items: center;
 }
-.btn-menu-header {
+.btn-menu-header-mobile {
   background-color: inherit;
   border: none;
   margin-left: auto;
+  padding-right: 0;
+}
+@media screen and (min-width: 768px) {
+  .btn-menu-header-mobile {
+    display: none;
+  }
+}
+.btn-menu-header-tablet {
   display: none;
+  background-color: inherit;
+  border: none;
+  margin-left: auto;
+  padding-right: 0;
+}
+@media screen and (min-width: 768px) {
+  .btn-menu-header-tablet {
+    display: block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .btn-menu-header-tablet {
+    display: none;
+  }
 }
 .hero-title {
   margin-bottom: 80px;
